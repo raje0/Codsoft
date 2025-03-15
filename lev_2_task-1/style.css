@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #800000;
+    color: white;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.image-section {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.shivaji-img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border: 3px solid #800000;
+}
+
+.content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.section-title {
+    color: #800000;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #800000;
+    padding-bottom: 0.5rem;
+}
+
+.qualities {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.quality-card {
+    background-color: #fff5f5;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.quality-card:hover {
+    transform: translateY(-5px);
+}
+
+.timeline {
+    margin: 2rem 0;
+    border-left: 3px solid #800000;
+    padding-left: 2rem;
+}
+
+.timeline-item {
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -2.35rem;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    background-color: #800000;
+    border-radius: 50%;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: #800000;
+    color: white;
+    border-radius: 10px;
+}
